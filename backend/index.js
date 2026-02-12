@@ -7,7 +7,6 @@ app.use(express.json());
 const PORT = 5000;
 
 
-// GET route
 app.get("/", (req, res) => {
   res.json({
     message: "Smart Internship Portal Backend is Running 🚀",
@@ -16,7 +15,6 @@ app.get("/", (req, res) => {
 });
 
 
-// GET internships route
 app.get("/internships", (req, res) => {
   const internships = [
     {
@@ -35,7 +33,6 @@ app.get("/internships", (req, res) => {
 });
 
 
-// 👇 WRITE POST ROUTE HERE
 app.post("/register", (req, res) => {
 
   const studentData = req.body;
