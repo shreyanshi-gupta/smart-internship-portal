@@ -1,36 +1,55 @@
-# smart-internship-portal
-# Smart Internship Portal 🚀
+Smart Internship Portal 🚀
+A backend REST API built using Node.js, Express, and MongoDB Atlas for managing internships.
+This project provides CRUD operations for internship postings and follows clean backend architecture practices.
 
-A backend REST API built using Node.js and Express for managing internships.
 
-## Features
 
-- Create internship
-- Get all internships
-- Get internship by ID
-- Update internship
-- Delete internship
-- Input validation
+🚀 Features
 
-## Tech Stack
+Create Internship
+Get All Internships
+Get Internship by ID
+Update Internship
+Delete Internship
+Input Validation
+MongoDB Atlas Database Integration
+Environment Variable Configuration using dotenv
 
-- Node.js
-- Express.js
 
-## Project Structure
 
-backend/
-├── index.js  
-├── routes/  
-│   └── internships.js  
-└── data/  
-    └── internships.js  
+🛠 Tech Stack
 
-## How to Run
+Node.js
+Express.js
+MongoDB Atlas
+Mongoose
+dotenv
+Git & GitHub
 
-1. Install dependencies
 
-2. Start server
 
+📂 Project Structure
+smart-internship-portal/
+│
+├── backend/
+│   ├── server.js
+│   ├── routes/
+│   ├── models/
+│   ├── .env
+│   └── package.json
+│
+├── .gitignore
+└── README.md
+
+
+
+⚙️ How to Run
+1️⃣ Install dependencies
+      npm install
+2️⃣ Create a .env file inside backend folder
+      MONGO_URI=your_mongodb_connection_string
+      PORT=5000
+3️⃣ Start the server
+      npm start
 Server runs on:
-http://localhost:5000/
+http://localhost:5000
