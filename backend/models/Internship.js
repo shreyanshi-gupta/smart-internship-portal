@@ -16,6 +16,14 @@ const internshipSchema = new mongoose.Schema(
       type: String,
       required: [true, "Location is required"],
       trim: true
+    },
+    stipend: {
+      type: Number,
+      required: [true, "Stipend is required"]
+    },
+    duration: {
+      type: String,
+      required: [true, "Duration is required"]
     }
   },
   {
