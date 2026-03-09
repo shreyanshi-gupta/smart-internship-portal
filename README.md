@@ -180,6 +180,22 @@ The following operations were verified:
 
 ---
 
+## 📸 API Testing Screenshots
+
+### GET Internships
+![GET API](screenshots/GET.png)
+
+### POST Internship
+![POST API](screenshots/POST.png)
+
+### PUT Update Internship
+![PUT API](screenshots/PUT.png)
+
+### DELETE Internship
+![DELETE API](screenshots/DELETE.png)
+
+---
+
 # 👨‍💻 Author
 
 Developed as a backend project to demonstrate **full-stack development concepts using Node.js and MongoDB**.
