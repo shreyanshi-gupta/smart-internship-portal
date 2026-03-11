@@ -5,6 +5,8 @@
 The **Smart Internship Portal** is a full-stack web application designed to manage internship listings.
 The backend is built using **Node.js, Express, and MongoDB**, providing a RESTful API that supports full **CRUD operations** for internships.
 
+The project now also includes a **basic frontend built using HTML, CSS, and JavaScript**, which will be used to interact with the backend APIs.
+
 This project demonstrates real-world backend development practices such as:
 
 * Database integration with MongoDB Atlas
@@ -25,6 +27,12 @@ This project demonstrates real-world backend development practices such as:
 * MongoDB Atlas
 * Mongoose
 * dotenv
+
+### Frontend
+
+* HTML
+* CSS
+* JavaScript
 
 ### Tools
 
@@ -64,24 +72,41 @@ Routes → Controllers → Models → Database
 
 # 📂 Folder Structure
 
-backend/
+```
+smart-internship-portal
 │
-├── config/
-│ └── db.js
+├── backend
+│   │
+│   ├── config
+│   │   └── db.js
+│   │
+│   ├── controllers
+│   │   └── internshipController.js
+│   │
+│   ├── models
+│   │   └── Internship.js
+│   │
+│   ├── routes
+│   │   └── internships.js
+│   │
+│   ├── .env
+│   ├── .gitignore
+│   ├── index.js
+│   └── package.json
 │
-├── controllers/
-│ └── internshipController.js
+├── frontend
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
 │
-├── models/
-│ └── Internship.js
+├── screenshots
+│   ├── GET.png
+│   ├── POST.png
+│   ├── PUT.png
+│   └── DELETE.png
 │
-├── routes/
-│ └── internships.js
-│
-├── .env
-├── .gitignore
-├── index.js
-└── package.json
+└── README.md
+```
 
 ---
 
@@ -89,8 +114,10 @@ backend/
 
 Create a `.env` file inside the **backend folder**:
 
+```
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
+```
 
 ⚠️ Never push `.env` files to GitHub.
 
@@ -100,23 +127,32 @@ MONGO_URI=your_mongodb_connection_string
 
 ### 1. Clone the repository
 
+```
 git clone <your-repository-url>
+```
 
 ### 2. Navigate to backend
 
+```
 cd backend
+```
 
 ### 3. Install dependencies
 
+```
 npm install
+```
 
 ### 4. Start the server
 
+```
 npm start
+```
 
 Server will run on:
-
+```
 http://localhost:5000
+```
 
 ---
 
@@ -184,13 +220,10 @@ The following operations were verified:
 
 ### GET Internships
 ![GET API](screenshots/GET.png)
-
 ### POST Internship
 ![POST API](screenshots/POST.png)
-
 ### PUT Update Internship
 ![PUT API](screenshots/PUT.png)
-
 ### DELETE Internship
 ![DELETE API](screenshots/DELETE.png)
 
@@ -198,4 +231,4 @@ The following operations were verified:
 
 # 👨‍💻 Author
 
-Developed as a backend project to demonstrate **full-stack development concepts using Node.js and MongoDB**.
+Developed as a **full-stack learning project** to demonstrate backend and frontend development concepts using **Node.js, Express, MongoDB, HTML, CSS, and JavaScript**.
