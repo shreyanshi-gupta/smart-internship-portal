@@ -5,9 +5,9 @@
 The **Smart Internship Portal** is a full-stack web application designed to manage internship listings.
 The backend is built using **Node.js, Express, and MongoDB**, providing a RESTful API that supports full **CRUD operations** for internships.
 
-The project now also includes a **basic frontend built using HTML, CSS, and JavaScript**, which will be used to interact with the backend APIs.
+The project also includes a **frontend built using HTML, CSS, and JavaScript**, which interacts with the backend APIs to allow users to **add, view, and delete internships directly from the web interface**.
 
-This project demonstrates real-world backend development practices such as:
+This project demonstrates real-world backend and frontend development practices such as:
 
 * Database integration with MongoDB Atlas
 * Mongoose schema modeling
@@ -15,6 +15,7 @@ This project demonstrates real-world backend development practices such as:
 * Async/Await based controllers
 * MVC architecture
 * Environment variable configuration
+* Frontend–backend API integration
 
 ---
 
@@ -150,6 +151,7 @@ npm start
 ```
 
 Server will run on:
+
 ```
 http://localhost:5000
 ```
@@ -203,6 +205,7 @@ The following operations were verified:
 * Modular backend structure
 * Environment variable configuration
 * API testing using Postman
+* Frontend integration with REST APIs
 
 ---
 
@@ -219,12 +222,19 @@ The following operations were verified:
 ## 📸 API Testing Screenshots
 
 ### GET Internships
+
 ![GET API](screenshots/GET.png)
+
 ### POST Internship
+
 ![POST API](screenshots/POST.png)
+
 ### PUT Update Internship
+
 ![PUT API](screenshots/PUT.png)
+
 ### DELETE Internship
+
 ![DELETE API](screenshots/DELETE.png)
 
 ---
