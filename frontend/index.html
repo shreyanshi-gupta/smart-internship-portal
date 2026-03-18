@@ -4,45 +4,64 @@
 <head>
     <meta charset="UTF-8">
     <title>Smart Internship Portal</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <h1>Smart Internship Portal</h1>
 
-    <h2>Add New Internship</h2>
+    <!-- Add Internship Form -->
+    <section>
 
-    <form>
-        <label>Title:</label>
-        <input type="text" placeholder="Enter internship title">
-        <br><br>
+        <h2>Add Internship</h2>
 
-        <label>Company:</label>
-        <input type="text" placeholder="Enter company name">
-        <br><br>
+        <form id="internshipForm">
 
-        <label>Location:</label>
-        <input type="text" placeholder="Enter location">
-        <br><br>
+            <input
+                type="text"
+                id="title"
+                placeholder="Internship Title"
+                required
+            >
 
-        <label>Stipend:</label>
-        <input type="number" placeholder="Enter stipend">
-        <br><br>
+            <input
+                type="text"
+                id="company"
+                placeholder="Company Name"
+                required
+            >
 
-        <label>Duration:</label>
-        <input type="text" placeholder="Enter duration">
-        <br><br>
+            <input
+                type="text"
+                id="location"
+                placeholder="Location"
+                required
+            >
 
-        <button type="submit">Add Internship</button>
-    </form>
+            <button type="submit">
+                Add Internship
+            </button>
 
-    <hr>
+        </form>
 
-    <h2>Available Internships</h2>
+    </section>
 
-    <div id="internship-list">
-        <!-- Internships will appear here -->
-    </div>
+
+    <!-- Internship List -->
+    <section>
+
+        <h2>Available Internships</h2>
+
+        <p id="message"></p>
+
+        <div id="internshipList">
+            <p id="loading">Loading internships...</p>
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
 
 </body>
 

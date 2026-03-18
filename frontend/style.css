@@ -1,0 +1,104 @@
+/* Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Main Title */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Section Containers */
+section {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 60%;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Input Fields */
+input {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+/* Button Styling */
+button {
+    padding: 10px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    font-size: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Button Hover */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Internship List */
+#internshipList {
+    margin-top: 20px;
+}
+
+/* Internship Card */
+.internship-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    background-color: #fafafa;
+}
+
+/* Card Title */
+.internship-card h3 {
+    margin: 0;
+    color: #333;
+}
+
+/* Card Text */
+.internship-card p {
+    margin: 5px 0;
+    color: #555;
+}
+
+/* Delete Button */
+.delete-btn {
+    margin-top: 10px;
+    background-color: red;
+}
+
+.delete-btn:hover {
+    background-color: darkred;
+}
+
+/* Success Message */
+#message {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: green;
+}
+
+/* Loading Text */
+#loading {
+    text-align: center;
+    color: gray;
+}
